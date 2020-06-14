@@ -2,10 +2,11 @@
 
 body{
 	font-family: 'Montserrat', sans-serif;
+	background-color: #ECF0F1;
 }
 
 header{
-	background-color: #B93AEA;
+	background-color: #9A12B3;
 }
 
 .mi_marco{
@@ -26,7 +27,7 @@ header{
 .descripcion{
 	text-align: center;
 	padding: 12px;
-	background-color: #0083FF;
+	background-color: #89C4F4;
 }
 
 .informacion{
