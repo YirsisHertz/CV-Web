@@ -16,6 +16,7 @@
     <!-- Normalizo todos los estilos de los navegadores -->
     <link rel="stylesheet" href="css/normalize.min.css">
     <!-- CDN's -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
     <script src="https://kit.fontawesome.com/a7da943b6d.js" crossorigin="anonymous"></script>
     <!-- Hojas de estilo propias -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -76,10 +77,58 @@
             </div>
             <div>
                 <h3>Documentación</h3>
-                <div>
-                    <img class="certs" src="documentos/1.png" title="HTML" alt="Certificado HTML">
-                    <img class="certs" src="documentos/2.png" title="CSS" alt="Certificado CSS">
-                    <img class="certs" src="documentos/3.png" title="JavaScript" alt="Certificado JavaScript">
+                <div class="carousel">
+                    <div class="carousel__contenedor">
+                        <button aria-label="Anterior" class="carousel_anterior">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <div class="carousel__lista">
+                            <div class="carousel__elemento">
+                                <img src="documentos/1.png" alt="Certificado.png" title="HTML Certificate">
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="documentos/2.png" alt="Certificado.png" title="HTML Certificate">
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="documentos/3.png" alt="Certificado.png" title="HTML Certificate">
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="documentos/4.png" alt="Certificado.png" title="HTML Certificate">
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="documentos/5.png" alt="Certificado.png" title="HTML Certificate">
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="documentos/6.png" alt="Certificado.png" title="HTML Certificate">
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="documentos/7.png" alt="Certificado.png" title="HTML Certificate">
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="documentos/8.png" alt="Certificado.png" title="HTML Certificate">
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="documentos/9.png" alt="Certificado.png" title="HTML Certificate">
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="documentos/10.png" alt="Certificado.png" title="HTML Certificate">
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="documentos/11.png" alt="Certificado.png" title="HTML Certificate">
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="documentos/12.png" alt="Certificado.png" title="HTML Certificate">
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="documentos/13.jpg" alt="Certificado.png" title="HTML Certificate">
+                            </div>
+                        </div>
+                        <button aria-label="Siguiente" class="carousel_siguiente">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+
+                    <div role="tablist" class="carousel__indicadores"></div>
                 </div>
             </div>
             <div>
@@ -94,5 +143,9 @@
             </div>
         </div>
     </section>
+    <!--Importo Glider JS-->
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <!--Scripts Propios-->
+    <script src="js/carousel.js"></script>
 </body>
 </html>
